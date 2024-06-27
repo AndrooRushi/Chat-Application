@@ -1,0 +1,95 @@
+.logo {
+  display: block;
+  /* margin: auto; */
+  height: 50px;
+  width: 75px;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/e8/d9/4e/e8d94e1e8b6b530ad315e9385290141b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  /* background: rgb(8,33,35);
+
+
+    
+background: radial-gradient(circle, rgba(8,33,35,1) 0%, rgba(33,71,72,1) 100%); */
+  /* background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATMAAACkCAMAAADMkjkjAAAAkFBMVEUSGBwRGyAAAAAACxMAEBYIEBUADBIAChIAEhgIFRsABQ0AAAUAAAoACA4MExgAAA2Mj5GYmpt8fn+IiouSlZdtcXNYWlymqKlfY2Vpa22+wME+REedoKFHSk2Ji4yBg4V4enwgKCwvNTknLC9SVVdCR0q1t7i1t7msrrDU1dY4PUFMUVMbICTHycpjZ2nc3d7KFSplAAAHQklEQVR4nM3Wa5eayAJGYSkBBQG5X1q0aG/D0Y79///dqU4yWUmmdyY9H+adbatYQC18lpa98P6zLf6zqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWU4tQz33tVGy58HXP63V+tvw287PO/zni+7v9v8mv/nDD9N6f/w9NtmwSL7tuVu4Z/jWfD98GLxZUf47SHIvpvk695FuPixr69/PPb3zPy7XXvR2vfX/jpaRtvo+XK8HYeT//mF7/eR21ivIu/+vD/t4lVjPC95eKvIXzZbb7lxr313rL/0lpHfbNwZXnxsV37sTlu9MS/9KGneZlutmpU7bf3ORbxvdmpfdnEYZEEQnDft5j6YRRxsgjQ4nYM0zdLw8/B5Yx5vuulg0swMaZaZ+y3N4kWaxlmYLk69yZIsNI17CtPATej044UZAjdbujnfkjBIP2Z2mm/t6dw2j35o7/b4abcdqyK3+f1c3p9uk3lqLuWlrV6Srpntzj7Pdr0crqfq9njUvRntaJeP/lI+pqS8mLE8Ds3y0E9te7jbXe6d98eyP9nR7Krn/Fi4e9O/i/bOxQb311vZDu3L/WzG7DXM52lhb5/20/Ewm2k6lq2pX17Dou8Pdp/eqvox3Mricjx+aorz0WZTY09tk5zm4Va9PAY3VrXT3bb37PyozHQ1sd03TbOfhov9xYftr9cataUpd0Xnz7vrXByLwiRFVefTeWz/uB+msi2u+XPXPRemONR5YevxPL3Uxa0aO/PaGnvrLvl1zndzndedGVdd85Qfd6/RPJbnzh9r29tijEYzm850uTtifv8L+p7ZuZynp64qxsK0XdWdOnu345jML9fraaxs25lbZ8fhac5Pbnqvbp6mtpjNpuiHYrbl2B3rp/l0yot7fhjN9XDI+67cj7Wpu/5QjmZq99XBlk1R7z9k5i3n4tGNuam9rslX+bjfTrWtmltedLtrP4+noqgrd0zSd0Mx1Je5u6zma1Pn7pTR9Hl+st1kX2r7KHpT1GU39+PjUP2Rl8e6fnTX85CXdWHq3NbW3ad6+/tmj6IZy+xTMaTmf+6WD1NR130+lrv8qRu6YvN5uGtsnZsqr7q5ubmPnJmb/cFWx0OeVaONT9exOpRdc6iL+nxwZFOdV/umm82l67txaLvRPn/su+klS3+1fVuN4rV7jCPPXy3dGrSM4yhZb+PIlGtjje+tE7fDrU1uadsm/nK19Faxt35bx7Zr33O7lpG3clNtfTdhUtReFPv+NonWSzfqxb57fNv6+ReHzRZZuEk3YWY2brk27haHaZwkbg2Kg3gy7cV8Gd6EcZwskjTZmDCLk8wNBHHiNuNF7E515ydpasLYTLYxQbJxR8fBamMWQRJuNqG7/2o5+2f/ayw//32wbfyx43911e+V/v0P3l/PiX/+7fydPvzW/7X+wZv5l1LLcGoZTi3DqWU4tQynluHUMpxahlPLcGoZTi3DqWWw/wO6ILRk06ft/wAAAABJRU5ErkJggg=="); */
+  /* background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top; */
+  /* max-width: 955px; */
+  margin: auto;
+  height: 80vh;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.mid-text {
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.message {
+  background-color: rgb(225 245 238);
+  width: 30%;
+  padding: 10px;
+  margin: 17px 160px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-conatiner {
+  text-align: center;
+  max-width: 995px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+/* #messageInp {
+    width: 90%;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 4px;
+} */
+#messageInp {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 97%;
+}
+
+#messageInp:focus {
+  border-color: #117025;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.btn {
+  height: 31px;
+  width: 55px;
+  background: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 7px;
+}
